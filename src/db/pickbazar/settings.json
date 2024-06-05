@@ -22,7 +22,7 @@
       "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/2283/conversions/Pickbazar-thumbnail.jpg",
       "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/2283/Pickbazar.png",
       "id": 2286,
-      "file_name": "Pickbazar.png"
+      "file_name": "z.png"
     },
     "useOtp": false,
     "currency": "USD",
@@ -71,7 +71,7 @@
           "icon": "InstagramIcon"
         }
       ],
-      "website": "https://redq.io",
+      "website": "",
       "emailAddress": "demo@demo.com",
       "location": {
         "lat": 42.9585979,
@@ -118,10 +118,10 @@
     "useAi": true,
     "defaultAi": "openai",
     "maxShopDistance": 1000,
-    "siteLink": "https://pickbazar.redq.io",
-    "copyrightText": "Copyright \u00a9 REDQ. All rights reserved worldwide.",
-    "externalText": "REDQ",
-    "externalLink": "https://redq.io",
+    "siteLink": "",
+    "copyrightText": "Copyright \u00a9 Royal. All rights reserved worldwide.",
+    "externalText": "Royal",
+    "externalLink": "",
     "smsEvent": {
       "admin": {
         "statusChangeOrder": false,
