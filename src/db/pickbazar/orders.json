@@ -39,6 +39,510 @@
     "delivery_time": "Express Delivery",
     "order_status": "order-processing",
     "payment_status": "payment-cash",
+    "created_at": "2023-11-05T18:21:43.000Z",
+    "customer": {
+      "id": 6,
+      "name": "Jhon Doe",
+      "email": "admin@demo.com",
+      "email_verified_at": "2023-11-03T04:45:26.000000Z",
+      "created_at": "2023-11-03T04:45:26.000000Z",
+      "updated_at": "2023-11-03T04:45:26.000000Z",
+      "is_active": 1,
+      "shop_id": null,
+      "email_verified": true
+    },
+    "products": [
+      {
+        "id": 2,
+        "name": "Baby Spinach",
+        "slug": "baby-spinach",
+        "description": "Spinach (Spinacia oleracea) is a leafy green flowering plant native to central and western Asia. It is of the order Caryophyllales, family Amaranthaceae, subfamily Chenopodioideae. Its leaves are a common edible vegetable consumed either fresh.",
+        "type_id": 1,
+        "price": 0.6,
+        "shop_id": 6,
+        "sale_price": null,
+        "language": "en",
+        "min_price": 0.6,
+        "max_price": 0.6,
+        "sku": "2",
+        "quantity": 10,
+        "sold_quantity": 0,
+        "in_stock": 1,
+        "is_taxable": 0,
+        "in_flash_sale": 1,
+        "shipping_class_id": null,
+        "status": "publish",
+        "product_type": "simple",
+        "unit": "2lb",
+        "height": null,
+        "width": null,
+        "length": null,
+        "image": {
+          "id": "2",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/2/BabySpinach.jpg",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/2/conversions/BabySpinach-thumbnail.jpg"
+        },
+        "video": null,
+        "gallery": [
+          {
+            "id": "576",
+            "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/575/baby-spinach-1.png",
+            "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/575/conversions/baby-spinach-1-thumbnail.jpg"
+          },
+          {
+            "id": "577",
+            "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/576/baby-spinach-2.png",
+            "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/576/conversions/baby-spinach-2-thumbnail.jpg"
+          },
+          {
+            "id": "578",
+            "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/577/baby-spinach.png",
+            "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/577/conversions/baby-spinach-thumbnail.jpg"
+          },
+          {
+            "id": "738",
+            "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/737/BabySpinach_xronqz.jpg",
+            "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/737/conversions/BabySpinach_xronqz-thumbnail.jpg"
+          }
+        ],
+        "deleted_at": null,
+        "created_at": "2021-03-08T10:26:13.000000Z",
+        "updated_at": "2023-10-16T06:54:29.000000Z",
+        "author_id": null,
+        "manufacturer_id": null,
+        "is_digital": 0,
+        "is_external": 0,
+        "external_product_url": null,
+        "external_product_button_text": null,
+        "blocked_dates": [],
+        "ratings": 3.33,
+        "total_reviews": 3,
+        "rating_count": [
+          {
+            "rating": 4,
+            "total": 1,
+            "positive_feedbacks_count": 0,
+            "negative_feedbacks_count": 0,
+            "my_feedback": null,
+            "abusive_reports_count": 0
+          },
+          {
+            "rating": 3,
+            "total": 2,
+            "positive_feedbacks_count": 0,
+            "negative_feedbacks_count": 0,
+            "my_feedback": null,
+            "abusive_reports_count": 0
+          }
+        ],
+        "my_review": null,
+        "in_wishlist": false,
+        "translated_languages": ["en"],
+        "pivot": {
+          "order_id": 41,
+          "product_id": 2,
+          "order_quantity": "1",
+          "unit_price": 0.6,
+          "subtotal": 0.6,
+          "variation_option_id": null,
+          "created_at": "2023-11-05T18:21:43.000000Z",
+          "updated_at": "2023-11-05T18:21:43.000000Z"
+        },
+        "variation_options": []
+      },
+      {
+        "id": 1,
+        "name": "Apples",
+        "slug": "apples",
+        "description": "An apple is a sweet, edible fruit produced by an apple tree (Malus domestica). Apple trees are ... The skin of ripe apples is generally red, yellow, green, pink, or russetted, though many bi- or tri-colored cultivars may be found.",
+        "type_id": 1,
+        "price": 2,
+        "shop_id": 6,
+        "sale_price": 1.6,
+        "language": "en",
+        "min_price": 2,
+        "max_price": 2,
+        "sku": "1",
+        "quantity": 18,
+        "sold_quantity": 0,
+        "in_stock": 1,
+        "is_taxable": 0,
+        "in_flash_sale": 0,
+        "shipping_class_id": null,
+        "status": "publish",
+        "product_type": "simple",
+        "unit": "1lb",
+        "height": null,
+        "width": null,
+        "length": null,
+        "image": {
+          "id": "1",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1/Apples.jpg",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1/conversions/Apples-thumbnail.jpg"
+        },
+        "video": null,
+        "gallery": [
+          {
+            "id": "573",
+            "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/572/apple-1.png",
+            "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/572/conversions/apple-1-thumbnail.jpg"
+          },
+          {
+            "id": "574",
+            "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/573/apple-2.png",
+            "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/573/conversions/apple-2-thumbnail.jpg"
+          },
+          {
+            "id": "575",
+            "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/574/apple.png",
+            "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/574/conversions/apple-thumbnail.jpg"
+          },
+          {
+            "id": "737",
+            "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/736/apple-2.png",
+            "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/736/conversions/apple-2-thumbnail.jpg"
+          }
+        ],
+        "deleted_at": null,
+        "created_at": "2021-03-08T10:24:53.000000Z",
+        "updated_at": "2023-10-06T06:19:56.000000Z",
+        "author_id": null,
+        "manufacturer_id": null,
+        "is_digital": 0,
+        "is_external": 0,
+        "external_product_url": null,
+        "external_product_button_text": null,
+        "blocked_dates": [],
+        "ratings": 4.67,
+        "total_reviews": 3,
+        "rating_count": [
+          {
+            "rating": 5,
+            "total": 2,
+            "positive_feedbacks_count": 0,
+            "negative_feedbacks_count": 0,
+            "my_feedback": null,
+            "abusive_reports_count": 0
+          },
+          {
+            "rating": 4,
+            "total": 1,
+            "positive_feedbacks_count": 0,
+            "negative_feedbacks_count": 0,
+            "my_feedback": null,
+            "abusive_reports_count": 0
+          }
+        ],
+        "my_review": null,
+        "in_wishlist": false,
+        "translated_languages": ["en"],
+        "pivot": {
+          "order_id": 41,
+          "product_id": 1,
+          "order_quantity": "1",
+          "unit_price": 1.6,
+          "subtotal": 1.6,
+          "variation_option_id": null,
+          "created_at": "2023-11-05T18:21:43.000000Z",
+          "updated_at": "2023-11-05T18:21:43.000000Z"
+        },
+        "variation_options": []
+      }
+    ],
+    "children": [
+      {
+        "id": 42,
+        "tracking_number": "20231105577248",
+        "customer_id": 6,
+        "customer_contact": "+19999999999",
+        "customer_name": "Jhon Doe",
+        "amount": 2.2,
+        "sales_tax": 0,
+        "paid_total": 2.2,
+        "total": 2.2,
+        "note": null,
+        "cancelled_amount": "0.00",
+        "cancelled_tax": "0.00",
+        "cancelled_delivery_fee": "0.00",
+        "language": "en",
+        "coupon_id": null,
+        "parent_id": 41,
+        "shop_id": 6,
+        "discount": 0,
+        "payment_gateway": "CASH",
+        "altered_payment_gateway": null,
+        "shipping_address": {
+          "country": "new york",
+          "city": "new york",
+          "state": "new york",
+          "zip": "9500",
+          "street_address": "new york"
+        },
+        "billing_address": {
+          "country": "new york",
+          "city": "new york",
+          "state": "new york",
+          "zip": "9505",
+          "street_address": "new york"
+        },
+        "logistics_provider": null,
+        "delivery_fee": 0,
+        "delivery_time": "Express Delivery",
+        "order_status": "order-processing",
+        "payment_status": "payment-cash",
+        "created_at": "2023-11-05T18:21:43.000000Z",
+        "customer": {
+          "id": 6,
+          "name": "Jhon Doe",
+          "email": "admin@demo.com",
+          "email_verified_at": "2023-11-03T04:45:26.000000Z",
+          "created_at": "2023-11-03T04:45:26.000000Z",
+          "updated_at": "2023-11-03T04:45:26.000000Z",
+          "is_active": 1,
+          "shop_id": null,
+          "email_verified": true
+        },
+        "products": [
+          {
+            "id": 2,
+            "name": "Baby Spinach",
+            "slug": "baby-spinach",
+            "description": "Spinach (Spinacia oleracea) is a leafy green flowering plant native to central and western Asia. It is of the order Caryophyllales, family Amaranthaceae, subfamily Chenopodioideae. Its leaves are a common edible vegetable consumed either fresh.",
+            "type_id": 1,
+            "price": 0.6,
+            "shop_id": 6,
+            "sale_price": null,
+            "language": "en",
+            "min_price": 0.6,
+            "max_price": 0.6,
+            "sku": "2",
+            "quantity": 10,
+            "sold_quantity": 0,
+            "in_stock": 1,
+            "is_taxable": 0,
+            "in_flash_sale": 1,
+            "shipping_class_id": null,
+            "status": "publish",
+            "product_type": "simple",
+            "unit": "2lb",
+            "height": null,
+            "width": null,
+            "length": null,
+            "image": {
+              "id": "2",
+              "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/2/BabySpinach.jpg",
+              "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/2/conversions/BabySpinach-thumbnail.jpg"
+            },
+            "video": null,
+            "gallery": [
+              {
+                "id": "576",
+                "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/575/baby-spinach-1.png",
+                "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/575/conversions/baby-spinach-1-thumbnail.jpg"
+              },
+              {
+                "id": "577",
+                "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/576/baby-spinach-2.png",
+                "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/576/conversions/baby-spinach-2-thumbnail.jpg"
+              },
+              {
+                "id": "578",
+                "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/577/baby-spinach.png",
+                "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/577/conversions/baby-spinach-thumbnail.jpg"
+              },
+              {
+                "id": "738",
+                "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/737/BabySpinach_xronqz.jpg",
+                "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/737/conversions/BabySpinach_xronqz-thumbnail.jpg"
+              }
+            ],
+            "deleted_at": null,
+            "created_at": "2021-03-08T10:26:13.000000Z",
+            "updated_at": "2023-10-16T06:54:29.000000Z",
+            "author_id": null,
+            "manufacturer_id": null,
+            "is_digital": 0,
+            "is_external": 0,
+            "external_product_url": null,
+            "external_product_button_text": null,
+            "blocked_dates": [],
+            "ratings": 3.33,
+            "total_reviews": 3,
+            "rating_count": [
+              {
+                "rating": 4,
+                "total": 1,
+                "positive_feedbacks_count": 0,
+                "negative_feedbacks_count": 0,
+                "my_feedback": null,
+                "abusive_reports_count": 0
+              },
+              {
+                "rating": 3,
+                "total": 2,
+                "positive_feedbacks_count": 0,
+                "negative_feedbacks_count": 0,
+                "my_feedback": null,
+                "abusive_reports_count": 0
+              }
+            ],
+            "my_review": null,
+            "in_wishlist": false,
+            "translated_languages": ["en"],
+            "pivot": {
+              "order_id": 42,
+              "product_id": 2,
+              "order_quantity": "1",
+              "unit_price": 0.6,
+              "subtotal": 0.6,
+              "variation_option_id": null,
+              "created_at": "2023-11-05T18:21:43.000000Z",
+              "updated_at": "2023-11-05T18:21:43.000000Z"
+            },
+            "variation_options": []
+          },
+          {
+            "id": 1,
+            "name": "Apples",
+            "slug": "apples",
+            "description": "An apple is a sweet, edible fruit produced by an apple tree (Malus domestica). Apple trees are ... The skin of ripe apples is generally red, yellow, green, pink, or russetted, though many bi- or tri-colored cultivars may be found.",
+            "type_id": 1,
+            "price": 2,
+            "shop_id": 6,
+            "sale_price": 1.6,
+            "language": "en",
+            "min_price": 2,
+            "max_price": 2,
+            "sku": "1",
+            "quantity": 18,
+            "sold_quantity": 0,
+            "in_stock": 1,
+            "is_taxable": 0,
+            "in_flash_sale": 0,
+            "shipping_class_id": null,
+            "status": "publish",
+            "product_type": "simple",
+            "unit": "1lb",
+            "height": null,
+            "width": null,
+            "length": null,
+            "image": {
+              "id": "1",
+              "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1/Apples.jpg",
+              "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1/conversions/Apples-thumbnail.jpg"
+            },
+            "video": null,
+            "gallery": [
+              {
+                "id": "573",
+                "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/572/apple-1.png",
+                "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/572/conversions/apple-1-thumbnail.jpg"
+              },
+              {
+                "id": "574",
+                "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/573/apple-2.png",
+                "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/573/conversions/apple-2-thumbnail.jpg"
+              },
+              {
+                "id": "575",
+                "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/574/apple.png",
+                "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/574/conversions/apple-thumbnail.jpg"
+              },
+              {
+                "id": "737",
+                "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/736/apple-2.png",
+                "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/736/conversions/apple-2-thumbnail.jpg"
+              }
+            ],
+            "deleted_at": null,
+            "created_at": "2021-03-08T10:24:53.000000Z",
+            "updated_at": "2023-10-06T06:19:56.000000Z",
+            "author_id": null,
+            "manufacturer_id": null,
+            "is_digital": 0,
+            "is_external": 0,
+            "external_product_url": null,
+            "external_product_button_text": null,
+            "blocked_dates": [],
+            "ratings": 4.67,
+            "total_reviews": 3,
+            "rating_count": [
+              {
+                "rating": 5,
+                "total": 2,
+                "positive_feedbacks_count": 0,
+                "negative_feedbacks_count": 0,
+                "my_feedback": null,
+                "abusive_reports_count": 0
+              },
+              {
+                "rating": 4,
+                "total": 1,
+                "positive_feedbacks_count": 0,
+                "negative_feedbacks_count": 0,
+                "my_feedback": null,
+                "abusive_reports_count": 0
+              }
+            ],
+            "my_review": null,
+            "in_wishlist": false,
+            "translated_languages": ["en"],
+            "pivot": {
+              "order_id": 42,
+              "product_id": 1,
+              "order_quantity": "1",
+              "unit_price": 1.6,
+              "subtotal": 1.6,
+              "variation_option_id": null,
+              "created_at": "2023-11-05T18:21:43.000000Z",
+              "updated_at": "2023-11-05T18:21:43.000000Z"
+            },
+            "variation_options": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 411,
+    "tracking_number": "202311056350991",
+    "customer_id": 6,
+    "customer_contact": "+19999999999",
+    "customer_name": "Jhon Doe",
+    "amount": 2.2,
+    "sales_tax": 0.044,
+    "paid_total": 52.244,
+    "total": 52.244,
+    "note": null,
+    "cancelled_amount": "0.00",
+    "cancelled_tax": "0.00",
+    "cancelled_delivery_fee": "0.00",
+    "language": "en",
+    "coupon_id": null,
+    "parent_id": null,
+    "shop_id": null,
+    "discount": 0,
+    "payment_gateway": "CASH",
+    "altered_payment_gateway": null,
+    "shipping_address": {
+      "country": "new york",
+      "city": "new york",
+      "state": "new york",
+      "zip": "9500",
+      "street_address": "new york"
+    },
+    "billing_address": {
+      "country": "new york",
+      "city": "new york",
+      "state": "new york",
+      "zip": "9505",
+      "street_address": "new york"
+    },
+    "logistics_provider": null,
+    "delivery_fee": 50,
+    "delivery_time": "Express Delivery",
+    "order_status": "order-processing",
+    "payment_status": "payment-cash",
     "created_at": "2023-11-05T18:21:43.000000Z",
     "customer": {
       "id": 6,

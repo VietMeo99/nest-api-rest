@@ -52,6 +52,7 @@ export class PaypalPaymentService {
       status: response.result.status,
     };
   }
+
   private getRequestBody(order: Order) {
     const redirectUrl = process.env.SHOP_URL || 'http://localhost:3003';
     return {

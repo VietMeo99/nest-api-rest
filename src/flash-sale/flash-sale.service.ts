@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import { Injectable } from '@nestjs/common';
 import flashSaleJSON from '@db/flash-sale.json';
 import ProductsByFlashSaleJSON from '@db/products-by-flash-sale.json';

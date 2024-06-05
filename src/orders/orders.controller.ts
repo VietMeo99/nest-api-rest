@@ -59,6 +59,7 @@ export class OrdersController {
   verifyCheckout(@Query() query: CheckoutVerificationDto) {
     return this.ordersService.verifyCheckout(query);
   }
+
   @Post('/payment')
   @HttpCode(200)
   async submitPayment(@Body() orderPaymentDto: OrderPaymentDto): Promise<void> {

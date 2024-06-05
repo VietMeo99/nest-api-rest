@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import { Injectable } from '@nestjs/common';
 import { CreateAiDto } from './dto/create-ai.dto';
 import { Ai } from './entities/ai.entity';
